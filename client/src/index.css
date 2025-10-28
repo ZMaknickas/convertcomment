@@ -1,0 +1,104 @@
+body,
+body * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.centered-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.centered-form {
+  padding: 1rem;
+  width: 100%;
+  max-width: 600px; 
+}
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.section {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Counter Specific */
+.counter-section {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+/* Converter Specific */
+.converter-section {
+  background-color: #fefefe;
+}
+
+/* Input + Form */
+.converter-form {
+  margin-top: 1rem;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  width: 60%;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+.result {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
