@@ -102,10 +102,12 @@ export function Form() {
               required
             />
           </div>
-
-          <button type="submit" className="btn btn-primary w-100">
+          
+          <div>
+          <button className="btn btn-sm btn-warning mt-4" type="submit">
             Siųsti
           </button>
+          </div>
         </form>
       </div>
     </div>

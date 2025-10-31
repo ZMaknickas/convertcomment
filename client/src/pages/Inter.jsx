@@ -38,7 +38,7 @@ export function Inter() {
             id="name"
             value={name}
             onChange={handleNameChange}
-            minLength={1}
+            minLength={3}
             maxLength={20}
             placeholder="Your name"
           />

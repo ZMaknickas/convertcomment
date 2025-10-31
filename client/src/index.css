@@ -78,17 +78,11 @@ body {
   cursor: pointer;
 }
 
-.btn-primary {
-  background-color: #007bff;
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
-}
-
 .btn-success {
+  width: 150px;
+  height: 50px;
   background-color: #28a745;
+  border-radius: 15px;
   color: white;
 }
 
@@ -103,8 +97,8 @@ body {
   text-align: center;
 }
 .chat-container {
-  width: 300px;
-  margin: 0 auto;
+  width: 600px;
+  margin: 20px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -112,6 +106,7 @@ body {
 }
 
 .chat-box {
+  height: 1.5rem;
   margin-top: 20px;
 }
 
@@ -126,11 +121,12 @@ form {
   gap: 10px;
 }
 
-input[type="text"] {
+input {
   flex-grow: 1;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  height: 1.8rem;
 }
 
 button {
