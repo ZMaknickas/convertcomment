@@ -7,9 +7,9 @@ export function Header() {
         <ul className="nav nav-pills me-auto mb-2 mb-lg-0 topbar-links">
           <li className="nav-item d-flex">
             <Link className="nav-link" to="/">Home</Link>
-            <Link className="nav-link" to="/inter">Inter</Link>
-            <Link className="nav-link" to="/java">JavaScript</Link>
-            <Link className="nav-link" to="/form">Komentarai</Link>
+            <Link className="nav-link" to="/inter">Comment</Link>
+            <Link className="nav-link" to="/java">Converter</Link>
+            <Link className="nav-link" to="/form">Chat to DB</Link>
           </li>
         </ul>
       </div>
