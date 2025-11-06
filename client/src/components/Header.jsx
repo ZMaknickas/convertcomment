@@ -10,6 +10,7 @@ export function Header() {
             <Link className="nav-link" to="/inter">Comment</Link>
             <Link className="nav-link" to="/java">Converter</Link>
             <Link className="nav-link" to="/form">Chat to DB</Link>
+            <Link className="nav-link" to="/gallery">Gallery</Link>
           </li>
         </ul>
       </div>

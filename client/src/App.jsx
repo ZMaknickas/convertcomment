@@ -3,6 +3,7 @@ import { Home } from '../src/pages/Home';
 import { Inter } from '../src/pages/Inter';
 import { Jada } from '../src/pages/Jada';
 import { Form } from '../src/pages/Form';
+import { Gallery } from '../src/pages/Gallery';
 import { PublicLayout } from '../src/templates/PublicLayout';
 
 export function App() {
@@ -14,6 +15,7 @@ export function App() {
         <Route path='/inter'index element={<Inter />} />
         <Route path='/java' index element={<Jada />} />
         <Route path='/form' index element={<Form />} />
+        <Route path='/gallery' index element={<Gallery />} />
       </Route>
     </Routes>
     </BrowserRouter>
